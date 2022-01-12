@@ -37,3 +37,4 @@ class person(models.Model):
            )
 class number(models.Model):
     number = models.CharField('設備型號', max_length=10)
+    #接下來 是購置日期
